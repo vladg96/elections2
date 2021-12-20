@@ -17,4 +17,6 @@ public class Politician {
     private int id;
 
     private String name;
+
+    private String party;
 }

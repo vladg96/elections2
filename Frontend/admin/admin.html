@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>User Electives</title>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css" href="/admin/admin.css">
+    <script src="admin.js"></script>
+</head>
+<body>
+<header>
+    <h5>Welcome Admin!</h5>
+</header>
+<div class="contact-form">
+    <form id="electionForm">
+        <h2>List of current parties. Select the party you manage</h2>
+        <label for="CPR"> Your CPR</label>
+        <input type="text" name="CPR" placeholder="CPR no.">
+        <label for="party">Parties</label>
+        <select id="party" name="party">
+            <option value="party">Select party</option>
+            <option value="Socialdemokratiet">Socialdemokratiet</option>
+            <option value="Det konservative Folkeparti">Det konservative Folkeparti</option>
+            <option value="SF, Socialistisk Folkeparti">SF, Socialistisk Folkeparti</option>
+            <option value="Dansk Folkeparti">Dansk Folkeparti</option>
+            <option value="Venstre, Danmarks Liberale Parti">Venstre, Danmarks Liberale Parti</option>
+            <option value="Enhedslisten + De Rød GrønnePoliticiansname">Enhedslisten + De Rød GrønnePoliticiansname</option>
+        </select>
+        <input type="submit" value="Choose">
+    </form>
+</div>
+
+<div class="buttonWrapper">
+    <button id="open">
+        List of all current candidates  
+    </button>
+</div>
+
+
+    <div class="modal-container" id="modal_container">
+        <div class="modal">
+            <ul id="politiciansList">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ul>
+            <button id="close">
+                Close the list
+            </button>
+        </div>
+    </div>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small red">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="align-self:center; margin: auto;">© 2021 Copyright:Vlad Garau
+    
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+</body>
+</html>
