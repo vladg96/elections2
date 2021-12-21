@@ -19,10 +19,16 @@ const createList = (parrentNode,list) => {
             ${politician.name} 
             <span>
                 <button class="edit" >Edit Member</button>
-                <button class="delete" >Delete Member</button>
+                <button class="delete" data-testid="${obj.id}" id="delete-${obj.id} >Delete Member</button>
             </span>
         </li>
         `
     });
     parrentNode.innerHTML = HTML;
+
+    function deleteObject(){
+        var testid = $(this).val('testid')
+
+        var deleteDelete = $('delete-${testid}')
+    }
 }
