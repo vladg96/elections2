@@ -2,4 +2,45 @@
     list-style: none;
     display: flex;
     justify-content: space-between;
+    max-width: 60%;
+    margin: auto;
+    padding: 5px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.top_list {
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+    align-items: center;
+    align-content: space-around;
+    justify-content: space-around;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button {
+    border-radius: 25px;
+}
+
+button.edit {
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #2EF22A;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button.delete {
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #e61919;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+button.add_button {
+    background-color: #fff;
+    padding: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

@@ -18,8 +18,8 @@ const createList = (parrentNode,list) => {
         <li class="listJS" >
             ${politician.name} 
             <span>
-                <button>Edit Member</button>
-                <button>Delete Member</button>
+                <button class="edit" >Edit Member</button>
+                <button class="delete" >Delete Member</button>
             </span>
         </li>
         `
