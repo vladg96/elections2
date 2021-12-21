@@ -1,0 +1,15 @@
+Name: 
+Vlad Radu Garau  
+Student no. 0887 
+Link to my GitHub repository: https://github.com/vladg96/elections2 
+ 
+Dear all, 
+ 
+As you may see in my repository, I was able to make almost all the endpoints work, except that I am missing mapping for Votes, I encountered some issues with the database.  
+ 
+On the other hand, when it comes to the front end, I tried to make it as simple as possible, using HTML and JavaScript, I initially thought of making a user page, where people can go on and just simply vote and then a second main page, where administrators from different parties can log on and of course, use the CRUD model for adding, editing, or deleting current members of the parties and having the option to see all the members that are currently on. I managed to make it work on the front end the read and delete function 
+ 
+Unfortunately, time was not on my side, and the product is far from being great, but I tried to reach the minimum requirements to have a functional product. Thank you for your time and I am looking forward to the oral examination. 
+ 
+This was my design idea and what I was intending to get in the end: https://www.figma.com/file/Da1fWmQ3MZJLk7LwwO2eyP/Electives?node-id=0%3A1 
+ 
